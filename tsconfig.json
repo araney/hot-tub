@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+      "target": "es5", // we need to support es5 browsers
+      "sourceMap": true, // for debugging purposes
+      "module": "es2020",
+      "moduleResolution": "node",
+      "baseUrl": "src", // where to start looking for non-relative module paths
+      "outDir": "dist",
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "jsx": "preserve",
+  },
+  "exclude": [
+      "node_modules"
+  ],
+  "importsNotUsedAsValues": "preserve",
+  "include": [
+      "**/*.ts",
+      "**/*.vue"
+  ]
+}
